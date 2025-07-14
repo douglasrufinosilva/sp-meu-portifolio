@@ -3,5 +3,36 @@
   padding: 0;
   box-sizing: border-box;
   outline: 0;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
+}
+
+/* Início Header */
+
+.nav {
+  background-color: #181818;
+  height: 80px;
+  width: 100%;
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 28px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #ddd;
+  padding: 20px;
+}
+
+.nav-list a:hover {
+  color: #fff;
 }
