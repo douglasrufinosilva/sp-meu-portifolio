@@ -70,9 +70,40 @@ body {
   border-radius: 4px;
   font-size: 18px;
   font-weight: bold;
+  transition: 0.7s;
+}
+
+.call-to-action:hover {
+  transform: scale(1.1);
 }
 
 .main a {
   text-decoration: none;
   color: #181818;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+
+  background-color: #ffffff;
+  padding: 80px 10% 80px 10%;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about div {
+  max-width: 50%;
+  padding-right: 40px;
+}
+
+.about img {
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+.about div h2 {
+  font-size: 32px;
+  margin-bottom: 14px;
 }
